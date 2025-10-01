@@ -1,0 +1,10 @@
+ Secure Chat App with End-to-End Encryption
+ Objective: Create a private chat application with E2EE using public-key cryptography.
+ Tools: Python, Flask-SocketIO, RSA/AES from cryptography
+ Mini Guide:
+ a.Generate RSA keys per user and share public keys.
+ b.Encrypt messages with AES, keys shared via RSA.
+ c.Create real-time communication with Flask-SocketIO.
+ d.Store chat logs encrypted on server (optional).
+ e.Display messages decrypted only on client side.
+ Deliverables: Secure chat app with E2EE and encrypted logs
